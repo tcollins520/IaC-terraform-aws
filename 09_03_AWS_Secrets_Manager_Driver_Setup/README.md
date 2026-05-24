@@ -311,7 +311,7 @@ Before running any commands, export these values so everything works dynamically
 ```bash
 # Replace the placeholders below with your actual values
 export AWS_REGION="us-east-1"
-export EKS_CLUSTER_NAME="retail-dev-eksdemo1"
+export EKS_CLUSTER_NAME="retail-dev-eks-cluster"
 export AWS_ACCOUNT_ID=$(aws sts get-caller-identity --query Account --output text)
 
 # Confirm values
